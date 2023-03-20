@@ -21,12 +21,6 @@
 - [과제 관련 레포지토리](https://github.com/walking-sunset/assignment-api)
 - 작업기간: 2022.09.27 ~ 2022.09.29
 
-<br>
-
-## [🏄‍♀️ 바로 실행하기](https://wanted-5-1.herokuapp.com/)
-
-- 배포 주소: https://wanted-5-1.herokuapp.com/
-
 ## 💻 설치 및 실행
 
 <br>
