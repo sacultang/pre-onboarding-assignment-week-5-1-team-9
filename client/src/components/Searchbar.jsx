@@ -1,13 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Searchbar({ setQuery }) {
-  const onChangeHandler = ({ target }) => {
-    setQuery(target.value)
-  }
+function Searchbar({ setQuery, query }) {
+  const onChangeHandler = event => setQuery(event.target.value)
+
   return (
     <SearchBarContainer>
-      <SearchInput type="text" onChange={onChangeHandler} placeholder="질환명을 입력해주세요." />
+      <SearchInput
+        type="text"
+        value={query}
+        onChange={onChangeHandler}
+        placeholder="질환명을 입력해주세요."
+      />
       <SearchButton>검색</SearchButton>
     </SearchBarContainer>
   )
